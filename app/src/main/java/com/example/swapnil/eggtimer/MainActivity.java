@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
         isactive = false;
 
     }
-
     @SuppressLint("ResourceAsColor")
     @TargetApi(Build.VERSION_CODES.M)
     @RequiresApi(api = Build.VERSION_CODES.M)
@@ -83,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         goButton = findViewById(R.id.goButton);
         timerSeekBar = (SeekBar) findViewById(R.id.timerSeekBar);
         timerSeekBar.setMax(600);
-        timerSeekBar.setProgress(10);
+        timerSeekBar.setProgress(30);
 
 
         timerTextView = findViewById(R.id.timerTextView);
